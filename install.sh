@@ -37,6 +37,7 @@ sudo mkdir /home/checkdata2
 sudo touch /home/checkdata2/locked
 sudo chmod 777 /home/datauser
 sudo cp -r filemanager /home/filemanager
+chmod -R 777 /home
 sudo a2enmod cgi
 sudo chmod 777 /usr/lib/cgi-bin
 sudo chmod 777 /usr/lib/cgi-bin/*
@@ -46,8 +47,8 @@ sudo sed -i "/more/i\www-data ALL=(ALL) NOPASSWD: ALL" /etc/sudoers
 sudo a2enmod ssl
 sudo mkdir /etc/apache2/ssl
 sudo chmod 777 /etc/apache2/ssl
-sudo apt install qd
-sudo apt install imagick
+sudo apt install jq
+sudo sudo apt install imagemagick
 echo -n "Masukkan nama domain : "
 read domain
 echo -n "Masukkan password root MySQL : "
