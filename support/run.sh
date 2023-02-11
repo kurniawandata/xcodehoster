@@ -119,7 +119,7 @@ Password : $password<br />
 <br />
 Saat ini subdomain anda sudah aktif
 <br />
-File login.php dan config.php tidak boleh dihapus. Jika lupa password, login tidak jalan, ingin pakai domain sendiri dan sebagainya maka klik  <a href="https://chat.whatsapp.com/BG51V2lD6442ZTCQ6r36MX" target="_blank">https://chat.whatsapp.com/BG51V2lD6442ZTCQ6r36MX</a> lalu baca deskripsi group dan tulis nama subdomainnya di group. 
+File login.php dan config.php tidak boleh dihapus. 
 <br>
 <br>
 </body>
