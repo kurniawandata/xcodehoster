@@ -71,4 +71,4 @@ sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
 sudo service apache2 restart
-echo "Instalasi xcodehoster tahap awal selesai, silahkan modifikasi isi dan cloudflare"
+echo "Instalasi xcodehoster tahap awal selesai, silahkan modifikasi isi dan sebagainya, karena sistem hosting ini memanfaatkan API cloudflare."
