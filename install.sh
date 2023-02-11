@@ -10,8 +10,8 @@ sudo apt -y install php8.2 libapache2-mod-php8.2
 sudo cp support/phpinfo.php /var/www/html
 sudo apt install mysql-server
 echo -n "Masukkan password root yang akan dibuat : "
-read passmysql
-sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$passmysql';" 
+read passwordmysql
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$passwordmysql';" 
 sudo apt install phpmyadmin
 sudo apt-get install zip unzip php-zip
 sudo a2enmod ssl
@@ -53,11 +53,7 @@ sudo mkdir /etc/apache2/ssl
 sudo chmod 777 /etc/apache2/ssl
 sudo apt install jq
 sudo sudo apt install imagemagick
-echo -n "Masukkan nama domain : "
-read domain
-echo -n "Masukkan password root MySQL : "
-read passwordmysql
-passwordmysql="-p$passwordmysql"
+passwordmysql="-p$passwordmysql"https://github.com/kurniawandata/xcodehoster/
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/formdata.sh
 sed -i "s/xcodehoster.com/$domain/g" support/run.sh
