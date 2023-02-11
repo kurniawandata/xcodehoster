@@ -4,7 +4,7 @@ Xcodehoster 7.0 - Beta 1
 --------------------
 ![alt text](http://xcode.or.id/04_small-logo.png)
 
-Xcodehoster adalah program hosting yang dirancang khusus untuk Ubuntu Server 22.04.1 yang merupakan produk dari X-code (PT. Teknologi Server Indonesia)
+Xcodehoster adalah program hosting yang dirancang khusus untuk Ubuntu Server 22.04.1 yang merupakan produk dari X-code (PT. Teknologi Server Indonesia).
 Xcodehoster ini menggunakan PHP 8.2
 
 File manager
