@@ -1,3 +1,7 @@
+#!/bin/bash
+#Progammer : Kurniawan. admin@xcodetraining.com. xcode.or.id.
+#Program ini dapat digunakan untuk personal ataupun komersial.
+#X-code Media - xcode.or.id / xcode.co.id
 sudo apt-get update
 sudo apt -y install software-properties-common
 sudo add-apt-repository ppa:ondrej/php 
