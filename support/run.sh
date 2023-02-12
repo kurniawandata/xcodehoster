@@ -6,7 +6,7 @@ password=`echo "$QUERY_STRING" | awk '{split($0,array,"&")} END{print array[2]}'
 email=`echo "$QUERY_STRING" | awk '{split($0,array,"&")} END{print array[3]}' | awk '{split($0,array,"=")} END{print array[2]}'`
 wa=`echo "$QUERY_STRING" | awk '{split($0,array,"&")} END{print array[4]}' | awk '{split($0,array,"=")} END{print array[2]}'`
 cek=`echo "$QUERY_STRING" | awk '{split($0,array,"&")} END{print array[5]}' | awk '{split($0,array,"=")} END{print array[2]}'`
-line=$(head -n 1 acak201.txt)
+line=$(head -n 1 acak.txt)
 tanggal=$(date +%d-%m-%Y)
 random=$(tr -dc a-z0-9 </dev/urandom | head -c 13 ; echo '')
 function urldecode() { : "${*//+/ }"; echo -e "${_//%/\x}"; }
