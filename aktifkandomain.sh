@@ -7,5 +7,7 @@ read domain
 sudo cp support/subdomain.conf /etc/apache2/sites-available/$domain.conf 
 sed -i "s/sample.xcodehoster.com/$domain/g" /etc/apache2/sites-available/$domain.conf
 sed -i "s/sample/xcodehoster/g" /etc/apache2/sites-available/$domain.conf
+sed -i "s/xcodehoster.com.pem/$domain.pem/g" /etc/apache2/sites-available/$domain.conf
+sed -i "s/xcodehoster.com.key/$domain.key/g" /etc/apache2/sites-available/$domain.conf
 a2ensite $domain.conf
 service apache2 restart
