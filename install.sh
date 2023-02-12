@@ -30,7 +30,8 @@ sudo touch /home/pma/locked
 sudo mkdir /home/www
 sudo touch /home/www/locked
 sudo mkdir /home/datauser
-sudo touch /home/datauser/locked
+sudo touch /home/datauser/sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
+sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conflocked
 sudo mkdir /home/xcodehoster
 sudo touch /home/datauser/locked
 sudo mkdir /home/datapengguna
@@ -58,11 +59,14 @@ sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/formdata.sh
 sed -i "s/xcodehoster.com/$domain/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/aktivasi3.sh
-sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
-sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conf
+sed -i "s/xcodehoster.com.pem/$domain.pem/g" support/subdomain.conf
+sed -i "s/xcodehoster.com.key/$domain.pem/g" support/subdomain.conf
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh 
 sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
+sudo mkdir /etc/apache2/ssl
+sudo touch /etc/apache2/ssl/$domain.conf.pem
+sudo touch /etc/apache2/ssl/$domain.conf.key
 sudo service apache2 restart
 echo "Instalasi xcodehoster tahap awal selesai, silahkan modifikasi isi dan sebagainya, karena sistem hosting ini memanfaatkan API cloudflare."
