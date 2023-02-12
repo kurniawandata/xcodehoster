@@ -20,6 +20,8 @@ sudo cp /etc/apache2/apache2.conf backup
 sudo cp support/apache2.conf /etc/apache2/
 echo -n "Masukkan nama domain : "
 read domain
+sudo cp support/subdomain.conf $domain.conf 
+sed -i "s/sample.xcodehoster.com/$domain/g" /etc/apache2/sites-available/$domain.conf 
 sed -i "s/xcodehoster.com/$domain/g" support/subdomain.conf
 sudo cp /etc/php/8.2/apache2/php.ini /etc/php/8.2/apache2/phpini.backup
 sudo cp support/php.ini /etc/php/8.2/apache2
@@ -58,7 +60,6 @@ sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/formdata.sh
 sed -i "s/xcodehoster.com/$domain/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/aktivasi3.sh
-sed -i "s/xcodehoster.com/$domain/g" support/subdomain.conf
 sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
 sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conf
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh 
