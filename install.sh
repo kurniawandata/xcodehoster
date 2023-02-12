@@ -61,6 +61,7 @@ sed -i "s/xcodehoster.com/$domain/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/aktivasi3.sh
 sed -i "s/xcodehoster.com.pem/$domain.pem/g" support/subdomain.conf
 sed -i "s/xcodehoster.com.key/$domain.pem/g" support/subdomain.conf
+sed -i "s/xcodehoster.com/$domain/g" support/index.html
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh 
 sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
@@ -68,6 +69,7 @@ sudo cp support/formdata.sh /usr/lib/cgi-bin
 sudo cp support/acak.txt /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
 sudo cp support/index.html /home/xcodehoster
+sudo cp support/hosting.jpg /home/xcodehoster
 sudo mkdir /etc/apache2/ssl
 sudo touch /etc/apache2/ssl/$domain.conf.pem
 sudo touch /etc/apache2/ssl/$domain.conf.key
