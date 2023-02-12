@@ -15,7 +15,7 @@ Cara menggunakan
 ----------------
 1. git clone https://github.com/kurniawandata/xcodehoster
 2. cd xcodehoster
-3. ./install
+3. ./install.sh
 4. Modifikasi yang diperlukan
 
 Program ini telah diimplementasikan
