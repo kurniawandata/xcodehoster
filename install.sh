@@ -53,7 +53,7 @@ sudo mkdir /etc/apache2/ssl
 sudo chmod 777 /etc/apache2/ssl
 sudo apt install jq
 sudo sudo apt install imagemagick
-passwordmysql="-p$passwordmysql"https://github.com/kurniawandata/xcodehoster/
+passwordmysql="-p$passwordmysql"
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/formdata.sh
 sed -i "s/xcodehoster.com/$domain/g" support/run.sh
@@ -61,7 +61,7 @@ sed -i "s/xcodehoster.com/$domain/g" support/aktivasi3.sh
 sed -i "s/xcodehoster.com/$domain/g" support/subdomain.conf
 sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
 sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conf
-sed -i "s/-ppasswordmysql/-p$passwordmysql/g" support/run.sh 
+sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh 
 sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
