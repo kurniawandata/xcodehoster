@@ -1,6 +1,6 @@
 # xcodehoster
 
-Xcodehoster 7.0 - Beta 1
+Xcodehoster 7.0 - Beta 2
 --------------------
 ![alt text](http://xcode.or.id/04_small-logo.png)
 
