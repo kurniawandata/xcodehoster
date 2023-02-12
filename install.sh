@@ -36,7 +36,7 @@ sudo touch /home/datauser/locked
 sudo mkdir /home/datapengguna
 sudo touch /home/datapengguna/locked
 sudo mkdir /home/checkdata
-sudo touch /home/chekdata/locked
+sudo touch /home/checkdata/locked
 sudo mkdir /home/checkdata2
 sudo touch /home/checkdata2/locked
 sudo chmod 777 /home/datauser
