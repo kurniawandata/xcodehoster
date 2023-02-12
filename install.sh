@@ -30,7 +30,7 @@ sudo touch /home/pma/locked
 sudo mkdir /home/www
 sudo touch /home/www/locked
 sudo mkdir /home/datauser
-sudo touch /home/datauser/
+sudo touch /home/datauser
 sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
 sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conflocked
 sudo mkdir /home/xcodehoster
