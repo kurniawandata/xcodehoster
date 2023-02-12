@@ -19,7 +19,7 @@ cat <<EOT
 <html>
 <head>
     <title>Pendaftaran nasihosting</title>
-     <link rel="stylesheet" href="https://xcodehoster.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://server3.nasihosting.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style>
     { 
         font: bold 16px;
@@ -36,7 +36,7 @@ cat <<EOT
     <div class="container">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
-                <h3 style="text-align: center;">Daftar hosting3 - PHP 8.2</h3>
+                <h3 style="text-align: center;">Daftar hosting - PHP 8.2</h3>
 <br>
                 <form action="run.sh" method="get">
                 <table class="table">
