@@ -93,7 +93,7 @@ chmod 777 aktivasi4.sh
 rm aktivasi4.sh
 mysql -uroot -ppasswordmysql -e "CREATE USER '$name'@'localhost' IDENTIFIED WITH mysql_native_password BY '$password';"
 mysql -uroot -ppasswordmysql -e "GRANT ALL PRIVILEGES ON $name.* TO '$name'@'localhost';"
-mysql -uroot -ppasswordmysql -e "CREATE DATABASE $namegroups/linuxidn/?multi_permalinks=3543752485846311&notif_id=1676101954980966&notif_t=feedback_reaction_generic&ref=notif';"
+mysql -uroot -ppasswordmysql -e "CREATE DATABASE $name';"
 cat <<EOT
 <!DOCTYPE html>
 <html>
