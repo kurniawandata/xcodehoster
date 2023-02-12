@@ -71,7 +71,7 @@ cat <<EOT
                     <tr>
                        <td>
                         Captcha </td>
-                       <td colspan="2"><img src="https://serverjogja.xcodehoster.com/image.png?$patch">
+                       <td colspan="2"><img src="https://xcodehoster.com/image.png?$patch">
                        </td>
                         </tr>
                      <tr>
