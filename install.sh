@@ -64,6 +64,7 @@ sed -i "s/xcodehoster.com.key/$domain.pem/g" support/subdomain.conf
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh 
 sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
+sudo cp support/formdata.sh /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
 sudo mkdir /etc/apache2/ssl
 sudo touch /etc/apache2/ssl/$domain.conf.pem
