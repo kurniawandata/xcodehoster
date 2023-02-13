@@ -35,7 +35,6 @@ https://xcode.or.id, https://xcode.co.id, https://xcodetraining.com
 
 
 Donasi :
---------https://meet.google.com/yyj-onbd-tbv
 Donasi untuk Kurniawan telah berkontribusi sebagai pengembang free software & open source dalam bentuk gopay<br />
 
  <img src="https://xcode.co.id/qrcodex2.png" alt="gopay"> <br />
