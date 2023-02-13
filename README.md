@@ -16,7 +16,7 @@ Cara menggunakan
 1. git clone https://github.com/kurniawandata/xcodehoster
 2. cd xcodehoster
 3. ./install.sh
-4. Modifikasi yang diperlukan seperti file aktivasi3.sh (Masukkan Zone ID, global API Key dan ip server di sini) dan file dengan ekstensi pem dan key untuk SSL di /etc/apache2/ssl.
+4. Modifikasi yang diperlukan seperti file aktivasi3.sh di /usr/lib/cgi-bin (Masukkan Zone ID, global API Key dan ip server di sini) dan file dengan ekstensi pem dan key untuk SSL di /etc/apache2/ssl.
 5. Setelah konfigurasi file aktivasi3.sh dan file ekstensi pem dan key di /etc/apache2/ssl, jalankan ./aktifkandomain.
 6. Setelah selesai tinggal panggil domainnya di browser.
 
