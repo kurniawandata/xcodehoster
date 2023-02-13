@@ -30,12 +30,12 @@ GNU General Public License v3
 
 Program ini dibuat oleh :
 --------------------------------------------
-Kurniawan. E-mail : kurniawanajazenfone@gmail.com
-xcode.or.id
+Kurniawan. E-mail : admin@xcodetraining.com
+https://xcode.or.id, https://xcode.co.id, https://xcodetraining.com
 
 
 Donasi :
---------
+--------https://meet.google.com/yyj-onbd-tbv
 Donasi untuk Kurniawan telah berkontribusi sebagai pengembang free software & open source dalam bentuk gopay<br />
 
  <img src="https://xcode.co.id/qrcodex2.png" alt="gopay"> <br />
