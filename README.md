@@ -22,7 +22,7 @@ Cara menggunakan
 
 Program ini telah diimplementasikan
 -------------------------------
-Anda bisa mengakses nasihosting di https://xcodehoster.com
+Anda bisa mengakses website xcodehosterhttps://meet.google.com/yyj-onbd-tbv di https://xcodehoster.com
 
 Licensi
 -------
