@@ -16,9 +16,16 @@ Cara menggunakan
 1. git clone https://github.com/kurniawandata/xcodehoster
 2. cd xcodehoster
 3. ./install.sh
-4. Modifikasi yang diperlukan seperti file aktivasi3.sh di /usr/lib/cgi-bin (Masukkan Zone ID, global API Key dan ip server di sini) dan file dengan ekstensi pem dan key untuk SSL di /etc/apache2/ssl.
-5. Setelah konfigurasi file aktivasi3.sh dan file ekstensi pem dan key di /etc/apache2/ssl, jalankan ./aktifkandomain.
-6. Setelah selesai tinggal panggil domainnya di browser.
+4. Arahkan domain dan www yang ada di cloudflare ke ip server 
+5. Ambil Zone ID di overview, salin di notepad dulu
+6. Di overview, klik get Get your API Token lalu klik View pada Global API Key
+7. ./konfigurasiuntukcloudflare.sh
+8. Masukkan Zone ID, Global API dan ip server ke file
+9. Masuk ke SSL/TLS, ubah ke Full (Strict), di Edget Certificates, nyalakan Always Use HTTPS
+10. Pilih Origin Server lalu Create Certificat, lalu create, lalu simpan pem dan key ke notepad
+11. ./aktifkandomain
+12. Masukkan hasil create untuk pem dan key ke file yang dipanggil
+13. Setelah selesai tinggal panggil domainnya di browser.
 
 Program ini telah diimplementasikan
 -------------------------------
