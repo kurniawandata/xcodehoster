@@ -72,7 +72,7 @@ sudo cp support/subdomain.conf /home/xcodehoster
 sudo cp support/index.html /home/xcodehoster
 sudo cp support/hosting.jpg /home/xcodehoster
 sudo mkdir /etc/apache2/ssl
-sudo touch /etc/apache2/ssl/$domain.conf.pem
-sudo touch /etc/apache2/ssl/$domain.conf.key
+sudo touch /etc/apache2/ssl/$domain.pem
+sudo touch /etc/apache2/ssl/$domain.key
 sudo service apache2 restart
 echo "Instalasi xcodehoster tahap awal selesai, silahkan modifikasi isi dan sebagainya, karena sistem hosting ini memanfaatkan API cloudflare."
