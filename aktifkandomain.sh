@@ -6,6 +6,7 @@ echo -n "Masukkan nama domain : "
 read domain
 sudo cp support/subdomain.conf /etc/apache2/sites-available/$domain.conf 
 sed -i "s/sample.$domain/$domain/g" /etc/apache2/sites-available/$domain.conf
+sed -i "s/sample/xcodehoster/g" /etc/apache2/sites-available/$domain.conf
 sed -i "s/xcodehoster.com.pem/$domain.pem/g" /etc/apache2/sites-available/$domain.conf
 sed -i "s/xcodehoster.com.key/$domain.key/g" /etc/apache2/sites-available/$domain.conf
 a2ensite $domain.conf
