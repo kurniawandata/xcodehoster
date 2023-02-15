@@ -21,7 +21,7 @@ Cara menggunakan
 6. Di overview, klik get Get your API Token lalu klik View pada Global API Key
 7. ./konfigurasiuntukcloudflare.sh
 8. Masukkan Zone ID, Global API dan ip server ke file
-9. Masuk ke SSL/TLS, ubah ke Full (Strict), di Edget Certificates, nyalakan Always Use HTTPS
+9. Masuk ke SSL/TLS, ubah ke Full (Strict), di Edge Certificates, nyalakan Always Use HTTPS
 10. Pilih Origin Server lalu Create Certificate, lalu create, lalu simpan pem dan key ke notepad
 11. ./aktifkandomain
 12. Masukkan hasil create untuk pem dan key ke file yang dipanggil
