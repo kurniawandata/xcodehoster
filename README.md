@@ -31,6 +31,10 @@ Program ini telah diimplementasikan
 -------------------------------
 Anda bisa mengakses website xcodehoster di https://xcodehoster.com
 
+Support berbayar
+----------------
+https://xcode.co.id/xcodehostersupport
+
 Licensi
 -------
 GNU General Public License v3
