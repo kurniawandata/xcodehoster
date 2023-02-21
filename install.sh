@@ -32,7 +32,7 @@ sudo touch /home/www/locked
 sudo mkdir /home/datauser
 sudo touch /home/datauser
 sed -i "s/$domain.pem/xcodehoster.com.pem/g" support/subdomain.conf
-sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conflocked
+sed -i "s/$domain.key/xcodehoster.com.key/g" support/subdomain.conf
 sudo mkdir /home/xcodehoster
 sudo touch /home/datauser/locked
 sudo mkdir /home/datapengguna
@@ -74,5 +74,7 @@ sudo cp support/hosting.jpg /home/xcodehoster
 sudo mkdir /etc/apache2/ssl
 sudo touch /etc/apache2/ssl/$domain.pem
 sudo touch /etc/apache2/ssl/$domain.key
+cp /var/www/html/index.html /var/www/html/backup1.html
+cp /home/xcodehoster/* /var/www/html
 sudo service apache2 restart
 echo "Instalasi xcodehoster tahap awal selesai, silahkan modifikasi isi dan sebagainya, karena sistem hosting ini memanfaatkan API cloudflare."
