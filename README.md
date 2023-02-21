@@ -31,9 +31,9 @@ Program ini telah diimplementasikan
 -------------------------------
 Anda bisa mengakses website xcodehoster di https://xcodehoster.com
 
-Support berbayar
+Video tutorial
 ----------------
-https://xcode.co.id/xcodehostersupport
+Video tutorial : https://www.youtube.com/watch?v=lptpKA0kEf0
 
 Licensi
 -------
