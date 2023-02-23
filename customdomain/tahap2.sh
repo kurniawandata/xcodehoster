@@ -47,9 +47,7 @@ cat <<EOT
                             <input type="text" name="name" pattern="^[a-z0-9]+$">.nasihosting.com
                         </td>
                     </tr>
-                    
-
-                    <tr>
+                     <tr>
                         <td>Nama domain : </td>
                         <td>
                             <input type="text" name="domain" class="form-control">
