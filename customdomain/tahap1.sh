@@ -68,10 +68,7 @@ cat <<EOT
                         <td>
                             <input type="text" name="cek" pattern="^[a-zA-Z0-9]+$" title="Captcha." class="form-control">
                         </td>
-                    </tr>
-                   
-
-
+                    </tr>                 
                      <tr>
                         <td colspan="3" style="text-align:right;">
                             <input type="submit" value="Daftar" class="btn btn-sm btn-primary form-control"/>
