@@ -70,6 +70,7 @@ sudo cp support/formdata.sh /usr/lib/cgi-bin
 sudo cp support/acak.txt /usr/lib/cgi-bin
 sudo cp support/subdomain.conf /home/xcodehoster
 sudo cp support/index.html /home/xcodehoster
+sudo cp support/bootstrap.min.css /home/xcodehoster
 sudo cp support/hosting.jpg /home/xcodehoster
 sudo mkdir /etc/apache2/ssl
 sudo touch /etc/apache2/ssl/$domain.pem
