@@ -13,7 +13,7 @@ sudo nano customdomain/aktivasi7.sh
 sudo cp customdomain/tahap1.sh /usr/lib/cgi-bin
 sudo cp customdomain/runtahap1.sh /usr/lib/cgi-bin
 sudo cp customdomain/tahap2.sh /usr/lib/cgi-bin
-sudo cp customdomain/runtahap1.sh /usr/lib/cgi-bin
+sudo cp customdomain/runtahap2.sh /usr/lib/cgi-bin
 sudo cp customdomain/aktivasi5.sh /usr/lib/cgi-bin
 sudo cp customdomain/aktivasi7.sh /usr/lib/cgi-bin
 sudo cp customdomain/acakkode.txt /usr/lib/cgi-bin
