@@ -33,6 +33,12 @@ cat <<EOT
     </style>
 </head>
 <body>
+<script>
+function hideButton(x)
+ {
+  x.style.display = 'none';
+ }
+</script>
     <div class="container">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
@@ -82,7 +88,7 @@ cat <<EOT
                     </tr>
                     <tr>
                         <td colspan="3" style="text-align:right;">
-                            <input type="submit" value="Daftar" class="btn btn-sm btn-primary form-control"/>
+                            <input type="submit" value="Daftar" button onclick="hideButton(this)" class="btn btn-sm btn-primary form-control"/>
                         </td>
                     </tr>
                 </table>
