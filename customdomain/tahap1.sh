@@ -10,7 +10,7 @@ convert \
     -pointsize 18 \
     -fill blue \
     -gravity center \
-    -draw "text 0,0 '$(cat acak202.txt)'" \
+    -draw "text 0,0 '$(cat acakkode.txt)'" \
     image2.png
 convert image2.png -background white -wave 4x55 image2.png
 sudo cp image2.png /home/xcodehoster
