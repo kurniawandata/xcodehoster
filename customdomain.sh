@@ -18,3 +18,4 @@ sudo cp customdomain/aktivasi5.sh /usr/lib/cgi-bin
 sudo cp customdomain/aktivasi7.sh /usr/lib/cgi-bin
 sudo cp customdomain/acakkode.txt /usr/lib/cgi-bin
 chmod 777 /usr/lib/cgi-bin/*
+apt install curl
