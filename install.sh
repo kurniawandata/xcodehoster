@@ -68,6 +68,7 @@ sudo cp support/run.sh /usr/lib/cgi-bin
 sudo cp support/aktivasi3.sh /usr/lib/cgi-bin
 sudo cp support/formdata.sh /usr/lib/cgi-bin
 sudo cp support/acak.txt /usr/lib/cgi-bin
+sudo chmod 777 /usr/lib/cgi-bin/acak.txt
 sudo cp support/subdomain.conf /home/xcodehoster
 sudo cp support/index.html /home/xcodehoster
 sudo cp support/bootstrap.min.css /home/xcodehoster
