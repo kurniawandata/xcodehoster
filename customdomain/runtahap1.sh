@@ -65,7 +65,7 @@ convert image2.png -background white -wave 4x55 image2.png
 sudo cp /usr/lib/cgi-bin/image2.png /home/xcodehoster
 echo $name, $domain, $tanggal. > /home/datadomain/$domain.$tanggal
 cp /etc/apache2/sites-available/$name.conf /etc/apache2/sites-available/$domain.conf
-sed -i "s/$name.nasihosting.com/$domain/g" /etc/apache2/sites-available/$domain.conf
+sed -i "s/$name.xcodehoster.com/$domain/g" /etc/apache2/sites-available/$domain.conf
 sudo a2ensite $domain.conf
 sudo systemctl reload apache2
 sudo cp aktivasi5.sh aktivasi6.sh
