@@ -7,7 +7,7 @@ cek=`echo "$QUERY_STRING" | awk '{split($0,array,"&")} END{print array[3]}' | aw
 if [ -z "$(ls -A /home/$name)" ]; then
 echo "Subdomain yang anda masukkan belum terdaftar"
 else
-line=$(head -n 1 acak202.txt)
+line=$(head -n 1 acakkode.txt)
 tanggal=$(date +%d-%m-%Y)
 sub=$name.xcodehoster.com
 if [[ "${name}" =~ [^a-z0-9] ]]; then
