@@ -4,10 +4,10 @@
 #X-code Media - xcode.or.id / xcode.co.id
 echo -n "Masukkan nama domain : "
 read domain
-sed -i "s/xcodehoster.com/$domain/g" /customdomain/tahap1.sh
-sed -i "s/xcodehoster.com/$domain/g" /customdomain/tahap2.sh
-sed -i "s/xcodehoster.com/$domain/g" /customdomain/runtahap1.sh
-sed -i "s/xcodehoster.com/$domain/g" /customdomain/runtahap2.sh
+sed -i "s/xcodehoster.com/$domain/g" customdomain/tahap1.sh
+sed -i "s/xcodehoster.com/$domain/g" customdomain/tahap2.sh
+sed -i "s/xcodehoster.com/$domain/g" customdomain/runtahap1.sh
+sed -i "s/xcodehoster.com/$domain/g" customdomain/runtahap2.sh
 sudo nano customdomain/aktivasi5.sh
 sudo nano customdomain/aktivasi7.sh
 sudo cp customdomain/tahap1.sh /usr/lib/cgi-bin
