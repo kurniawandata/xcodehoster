@@ -9,7 +9,7 @@ echo "Subdomain yang anda masukkan belum terdaftar"
 else
 line=$(head -n 1 acak202.txt)
 tanggal=$(date +%d-%m-%Y)
-sub=$name.nasihosting.com
+sub=$name.xcodehoster.com
 if [[ "${name}" =~ [^a-z0-9] ]]; then
 echo "Subdomain hanya boleh huruf kecil dan angka"
 else
