@@ -42,7 +42,7 @@ function hideButton(x)
     <div class="container">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
-                <h3 style="text-align: center;">Daftar hosting - PHP 8.2</h3>
+                <h3 style="text-align: center;">Daftar hosting - PHP 8.3</h3>
 <br>
                 <form action="run.sh" method="get">
                 <table class="table">
