@@ -1,6 +1,6 @@
 # xcodehoster
 
-Xcodehoster 2025 - v9.0 for Ubuntu Server 24.04
+Xcodehoster 2025 - v9.0 for Ubuntu Server 24.04 LTS
 --------------------
 ![alt text](http://xcode.or.id/04_small-logo.png)
 
