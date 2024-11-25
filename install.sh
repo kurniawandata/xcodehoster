@@ -5,6 +5,7 @@
 sudo apt-get update
 sudo apt -y install software-properties-common
 sudo apt install apache2
+apt install php
 sudo cp support/phpinfo.php /var/www/html
 sudo apt install mysql-server
 echo -n "Masukkan password root yang akan dibuat : "
