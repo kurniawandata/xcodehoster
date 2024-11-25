@@ -4,9 +4,7 @@
 #X-code Media - xcode.or.id / xcode.co.id
 sudo apt-get update
 sudo apt -y install software-properties-common
-sudo add-apt-repository ppa:ondrej/php 
-sudo apt-get update
-sudo apt -y install php8.2 libapache2-mod-php8.2
+sudo apt install apache2
 sudo cp support/phpinfo.php /var/www/html
 sudo apt install mysql-server
 echo -n "Masukkan password root yang akan dibuat : "
@@ -21,8 +19,8 @@ sudo cp support/apache2.conf /etc/apache2/
 echo -n "Masukkan nama domain : "
 read domain
 sed -i "s/xcodehoster.com/$domain/g" support/subdomain.conf
-sudo cp /etc/php/8.2/apache2/php.ini /etc/php/8.2/apache2/phpini.backup
-sudo cp support/php.ini /etc/php/8.2/apache2
+sudo cp /etc/php/8.3/apache2/php.ini /etc/php/8.3/apache2/phpini.backup
+sudo cp support/php.ini /etc/php/8.3/apache2
 sudo mkdir /home/root
 sudo touch /home/root/locked
 sudo mkdir /home/pma
